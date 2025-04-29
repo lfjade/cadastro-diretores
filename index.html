@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diretores de Cinema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container">
+        <h1>Diretores de Cinema</h1>
+    
+        <form>
+            <input type="search" placeholder="Filtrar..." id = "barra-pesquisa" >
+        </form>
+        
+        <table id = "tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Nacionalidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+    </div>
+    
+    <div class = "container">
+        <h2>Cadastrar Novo Diretor</h2>
+        <form id="form-cadastro-diretor">
+            <input type="text" id="nome" placeholder="Nome do Diretor" required>
+            <input type="text" id="nacionalidade" placeholder="Nacionalidade" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    <script src = "index.js"></script>
+     
+</body>
+</html>
